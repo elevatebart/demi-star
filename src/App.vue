@@ -5,7 +5,7 @@
 
 <script lang="ts">
 import { useToggle } from "@vueuse/core";
-import "@vue/test-utils";
+import "local-import-star";
 import { defineComponent } from "vue";
 import HelloWorld from "./components/HelloWorld.vue";
 

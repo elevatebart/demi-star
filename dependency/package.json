@@ -1,0 +1,7 @@
+{
+  "name": "local-import-star",
+  "version": "0.0.0",
+  "module": "import-star.js",
+  "main": "import-star.js",
+  "private": true
+}
