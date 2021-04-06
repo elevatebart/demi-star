@@ -5,6 +5,7 @@
 
 <script lang="ts">
 import { useToggle } from "@vueuse/core";
+import "@vue/test-utils";
 import { defineComponent } from "vue";
 import HelloWorld from "./components/HelloWorld.vue";
 
@@ -15,8 +16,6 @@ export default defineComponent({
   },
   setup() {
     useToggle();
-    const pathOfFail = "./fail.ts";
-    import(/* @vite-ignore */ pathOfFail);
   },
 });
 </script>
